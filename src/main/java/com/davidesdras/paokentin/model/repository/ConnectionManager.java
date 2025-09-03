@@ -6,10 +6,12 @@ import java.sql.SQLException;
 
 public class ConnectionManager {
 
-	private static final String URL = "jdbc:mysql://localhost:3307/paokentin";
-	private static final String USER = "paokentinuser";
+	private static final String URL = "jdbc:mysql://turntable.proxy.rlwy.net:13732/railway";
+	private static final String USER = "root";
+
+
 	// Abaixo colocar a senha do banco de dados.
-	private static final String PASSWORD = "paokentinpass";
+	private static final String PASSWORD = "hlztOVazhOmoFPbgkNVpaqmEFETqCnfl";
 
 	private static Connection conn = null;
 

@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/paes")
-@CrossOrigin(value="http://127.0.0.1:5500",allowCredentials = "true")
+@CrossOrigin(value="https://sd-pao-kentin-front-end.vercel.app",allowCredentials = "true")
 public class PaoController {
 
 	@Autowired
